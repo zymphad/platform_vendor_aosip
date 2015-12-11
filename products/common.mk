@@ -50,5 +50,15 @@ endif
 #Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aosip/overlay/common
 
+# Busybox
+PRODUCT_PACKAGES += \
+    Busybox
+
+PRODUCT_COPY_FILES += \
+    vendor/aosip/prebuilt/common/app/NovaLauncher.apk:system/priv-app/NovaLauncher.apk
+
+# Theme engine
+include vendor/aosip/config/themes_common.mk
+
 # Inherit common product build prop overrides
 -include vendor/aosip/products/common_full.mk
