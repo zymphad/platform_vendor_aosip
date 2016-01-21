@@ -56,8 +56,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aosip/overlay/common
 # Busybox
 PRODUCT_PACKAGES += \
     Busybox \
-    LockClock \
-    OmniJaws
+    LockClock 
+#    OmniJaws
 
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/app/NovaLauncher.apk:system/priv-app/NovaLauncher.apk
