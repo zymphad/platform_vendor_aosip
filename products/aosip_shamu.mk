@@ -14,7 +14,7 @@ PRODUCT_MANUFACTURER := motorola
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=shamu \
-    BUILD_FINGERPRINT=google/shamu/shamu:6.0.1/MMB29S/2489379:user/release-keys \
-    PRIVATE_BUILD_DESC="shamu-user 6.0.1 MMB29S 2489379 release-keys" \
-    BUILD_ID=MMB29S \
-    BUILD_DISPLAY_ID=MMB29S
+    BUILD_FINGERPRINT=google/shamu/shamu:6.0.1/MMB29Q/2480792:user/release-keys \
+    PRIVATE_BUILD_DESC="shamu-user 6.0.1 MMB29Q 2480792 release-keys" \
+    BUILD_ID=MMB29Q \
+    BUILD_DISPLAY_ID=MMB29Q
