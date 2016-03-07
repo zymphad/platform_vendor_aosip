@@ -1,3 +1,5 @@
+add_lunch_combo aosip_angler-userdebug
+add_lunch_combo aosip_bullhead-userdebug
 add_lunch_combo aosip_flo-user
 add_lunch_combo aosip_grouper-userdebug
 add_lunch_combo aosip_hammerhead-user
